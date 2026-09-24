@@ -1,0 +1,42 @@
+# Dependensi Package Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variabel Lingkungan Sensitif (Rahasia & Kredensial DB)
+.env
+.env.local
+.env.*.local
+
+# Local credentials and machine-specific integration settings
+cookies.txt
+backend/cookies*.txt
+.mcp.json
+.claude/
+esp32/SD_CARD_CONFIG/config.txt
+
+# Hasil Build & Bundle
+dist/
+build/
+out/
+
+# File Sistem Operasi & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Folder Log & Upload File Media
+*.log
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+graphify-out/
+
+# Local Python artifacts and device credentials
+__pycache__/
+*.pyc
+esp32/config.txt
+esp32/server_ca.pem
